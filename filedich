@@ -1,0 +1,11 @@
+Đoạn mã mà bạn đã trích dẫn thực hiện việc đọc từng ký tự từ tệp nguồn và ghi chúng vào tệp đích. Hãy xem xét cách hoạt động của nó:
+
+bufferedReader.read(): Đọc một ký tự từ tệp nguồn. Nếu đã đọc hết tệp, read() sẽ trả về -1, dừng vòng lặp.
+
+bufferedWriter.write(character): Ghi ký tự vừa đọc được vào tệp đích.
+
+characterCount++: Tăng biến characterCount lên mỗi lần đọc và ghi một ký tự. Biến này được sử dụng để đếm số ký tự trong tệp.
+
+Vòng lặp này sẽ tiếp tục cho đến khi tệp nguồn được đọc hết. Sau khi vòng lặp kết thúc, chương trình hiển thị thông báo về việc sao chép thành công và số ký tự trong tệp.
+
+Nếu bạn có bất kỳ câu hỏi cụ thể hoặc muốn thực hiện một chức năng cụ thể, hãy thông báo thêm để tôi có thể hỗ trợ bạn.
